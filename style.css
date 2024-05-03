@@ -1562,5 +1562,73 @@ body{
 
   
 }
+@media (max-width: 320px) {
+
+    body{
+        font-size: 10px;
+
+        .header{
+            display: flex;
+            justify-content: space-between;
+            max-width: 320px;
+        }
+        
+        .banner{
+         background-image: url(./img/главная.jpg);
+         min-height: 400px
+        }
+
+    
+
+        .Who-we{
+            margin-left: 10px;
+            margin-right: 10px;
+            
+        }
+
+        .cards{
+            
+            margin-left: -30px;
+        }
+
+        .map-container{
+            max-width: 320px;
+        }
+
+        .map-container img{
+            width: 150px ;
+            margin-top: 10px;
+            height: 110px;
+        }
+
+        .qrs img{
+            width: 75px;
+            height: 75px;
+        }
+        .basement{
+            max-width: 320px;
+        }
+        .column p{
+            max-width: 320px;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+        .karta img{
+            display: none;
+
+        }
+        .name-img img{
+            width: 300px;
+            height: 200px;
+        }
+        .card-container {
+           
+            margin-top: 50px;
+        }
+
+
+    }
+}
+    
 
 
