@@ -170,11 +170,7 @@ body{
     justify-content: center;
     align-items: center;
     color: #000;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: rgb(252, 196, 209);
+    
 
 }
 
@@ -183,9 +179,25 @@ body{
     margin-bottom: 50px;
 }
 
+.Our-works .nav-base{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(252, 196, 209);
+}
+
 .services h2{
     translate: 650px;
     margin-bottom: 50px;
+}
+
+.services .nav-base{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(252, 196, 209);
 }
 
 .reviews h2{
