@@ -1067,7 +1067,7 @@ body{
 
         .header{
             display: flex;
-            justify-content: center;
+            justify-content: space-between;
             max-width: 425px;
         }
         
