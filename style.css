@@ -179,17 +179,17 @@ body{
 }
 
 .Our-works h2{
-    translate: 536px;
+    translate: 800px;
     margin-bottom: 50px;
 }
 
 .services h2{
-    translate: 536px;
+    translate: 650px;
     margin-bottom: 50px;
 }
 
 .reviews h2{
-    translate: 536px;
+    translate: 750px;
     margin-bottom: 50px;
 }
 
@@ -264,7 +264,7 @@ body{
 }
 
 .map h2{
-    translate: 536px;
+    translate: 750px;
     margin-bottom: 50px;
 }
 
@@ -1225,6 +1225,251 @@ body{
 
         .who-we-item{
             max-width: 400px;
+        }
+
+        .cards-about{
+            margin-left: 5px;
+            margin-right: 5px;
+
+        }
+
+        .column-about h3{
+            max-width: 300px;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+           
+            
+        }
+
+        .column-about p{
+            margin-left: 0px;
+            margin-right: 0px;
+            margin-bottom: 1px;
+            padding-left: 1px;
+            padding-right: 1px;
+            padding-top: 1px;
+            padding-bottom: 10px;
+
+        }
+    }
+
+  
+}
+
+
+
+
+
+
+@media (max-width: 375px) {
+    body{
+
+        font-size: 12px;
+
+        .header{
+            display: flex;
+            justify-content: center;
+            max-width: 375px;
+        }
+        
+        .banner{
+         background-image: url(./img/главная.jpg);
+         min-height: 600px
+
+  
+        }
+
+        .CRD{
+            max-width: 375px;
+            border: 3px solid black;
+            margin-bottom: 10px;
+            margin-top: 10px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        .txt img{
+            width: 200px;
+        }
+
+        .Our-works h2{
+            translate: 135px;
+            margin-bottom: 25px;
+        }
+
+        .cards{
+            justify-content: center;
+            width: 375px;
+        
+            margin-bottom: 25px;
+            
+        }
+
+        .card-container img{
+            display: flex;
+            margin-top: 50px;
+            margin-right: 5px;
+            margin-left: 10px;
+            margin-bottom: 50px;
+            width: 200px;
+            height: 130px;
+        }
+        .card-end p{
+            margin-left: 5px;
+        }
+
+        .cards-comment .column{
+            margin-right: 0px;
+            margin-left: 0px;
+            margin-bottom: 20px;
+        }
+
+        .column p{
+            margin-bottom: 10px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        
+
+        .img-liner-name{
+            max-width: 425px;
+        }
+
+        .name-name h3{
+            margin-bottom: 30px;
+        }
+
+        .name-img img{
+            margin-bottom: 30px;
+            width: 375px;
+            height: 200px;
+        }
+
+        .card-end-2{
+            display: flex;
+            justify-content: center;
+            margin-left: 15px;
+        }
+
+        .card-end-2 img{
+            display: flex;
+            flex-direction: column;
+            width: 200px;
+            height: 200px;
+            margin-left: 30px;
+            margin-bottom: 30px;
+        }
+
+        .basement{
+            font-size: 10px;
+            max-width: 400px;
+            height: 250px;
+            
+        }
+
+        .basement .column p{
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+
+        .karta img{
+           width: 150px ;
+           height: 110px;
+           margin-left: 5px;
+           margin-right: 5px;
+
+        }
+
+        .karta
+
+        .card img{
+            width: 175px;
+            margin-right: 1px;
+            margin-left: 10px;
+
+
+        }
+
+        .CRDT{
+            display: flex;
+            justify-content: center;
+        }
+
+        .yscl{
+            max-width: 1000px;
+            display: flex;
+            justify-content: center;
+            margin-right: 5px;
+            margin-bottom: 30px;
+        }
+
+        .yscl h4{
+            margin-right: 5px;
+            margin-left: 5px;
+            max-width: auto;
+        }
+
+        .yscl img{
+            display: none
+        }
+        .cards-about .column-about{
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+
+        .banner-top h1{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .services h2{
+            display: flex;
+            translate: 55px;
+        }
+
+        .reviews h2{
+            display: flex;
+            translate: 110px;
+        }
+
+        .map h2{
+            display: flex;
+            translate: 80px;
+        }
+
+        .map-cards p{
+            margin-right: 5px;
+            margin-top: 3px;
+            margin-bottom: 5px;
+        }
+
+        .map-container img{
+            margin-top: 5px;
+            margin-right: 5px;
+            margin-left: 10px;
+            width: 250px;
+            height: 150px;
+        }
+
+        .qrs img{
+            width: 100px;
+            height: 100px;
+        }
+
+        .Who-we h2{
+            display: flex;
+            justify-content: center;
+        }
+
+        .who-we-item{
+            max-width: 350px;
         }
 
         .cards-about{
