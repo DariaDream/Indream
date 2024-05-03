@@ -1092,7 +1092,11 @@ body{
 
         .CRD{
             max-width: 400px;
+            border: 1px solid black;
+            margin-left: 40px;
+            margin-right: 40px;
         }
+
         .txt img{
             width: 200px;
         }
@@ -1110,15 +1114,19 @@ body{
 
         .card-container img{
             display: flex;
-            margin-top: 50px;
+            margin-top: 15px;
             margin-right: 5px;
             margin-left: 10px;
-            margin-bottom: 50px;
+            margin-bottom: 10px;
             width: 200px;
             height: 130px;
         }
         .card-end p{
             margin-left: 5px;
+        }
+
+        .card-end{
+            margin-bottom: 7px;
         }
 
         .cards-comment .column{
@@ -1147,7 +1155,7 @@ body{
 
         .name-img img{
             margin-bottom: 30px;
-            width: 425px;
+            width: 400px;
             height: 200px;
         }
 
@@ -1155,6 +1163,7 @@ body{
             display: flex;
             justify-content: center;
             margin-left: 15px;
+            margin-bottom: 15px;
         }
 
         .card-end-2 img{
@@ -1193,10 +1202,10 @@ body{
         }
 
         .yscl{
-            max-width: 1000px;
+            max-width: 350px;
             display: flex;
             justify-content: center;
-            margin-right: 5px;
+            margin-right: 1px;
             margin-bottom: 30px;
         }
 
