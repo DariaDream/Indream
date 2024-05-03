@@ -1,0 +1,806 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Imprima", sans-serif;
+    color: black;
+    font-weight: 400;
+    font-size: 28px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(253, 204, 204);
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.card{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ max-width: 1030px;
+ width: 100%;
+ margin-bottom: 100px;
+
+}
+
+.card p{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 300px;  
+    background-color: rgb(252, 196, 209);
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #000;
+}
+
+.logo{
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-bgr{
+    color:#000;
+    text-decoration: none;
+}
+
+.nav-link-next{
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-base{
+    text-decoration: none;
+    color:#000
+}
+
+.nav-link-new{
+    text-decoration: none;
+    color:#000
+}
+
+.nav-link-pr{
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-pr{
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-zapis{
+    color: #000;
+    text-decoration: none;  
+}
+
+.logo-link{
+    text-decoration: none;
+    color:#000
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    background-image: url(./img/главная.jpg);
+    height: 920px;
+    width: 1920px;
+    margin-bottom: 50px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 1080px;
+}
+
+.banner-top{
+    margin-top: 400px;
+    justify-content: center;
+
+}
+
+.Who-we{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Who-we h2{
+    width: 53%; 
+    margin-bottom: 50px;
+}
+
+.who-we-item {
+    font-family: "Inconsolata", monospace;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+
+.who-we-item h3{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(252, 196, 209);
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+.who-we-item{
+    max-width: 1000px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.who-we-item p{
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-link-next{
+    text-align: center;
+    color: #000;
+}
+
+.nav-link{
+    font-family: "Inter", sans-serif;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(252, 196, 209);
+
+}
+
+.Our-works h2{
+    translate: 536px;
+    margin-bottom: 50px;
+}
+
+.services h2{
+    translate: 536px;
+    margin-bottom: 50px;
+}
+
+.reviews h2{
+    translate: 536px;
+    margin-bottom: 50px;
+}
+
+.reviews .nav-base{
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(252, 196, 209);
+
+}
+
+.reviews{
+    margin-bottom: 50px;
+}
+
+.cards-comment{
+    display: flex;
+    justify-content: center;
+}
+
+.cards-comment .column{
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+.column p{
+    margin-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(252, 196, 209);
+}
+
+.cards p{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 427px;  
+    background-color: rgb(252, 196, 209);
+}
+
+.map-container{
+    display: flex;
+    justify-content: center;
+}
+
+.map-container img{
+    margin-right: 50px;  
+    margin-bottom: 50px;
+}
+
+.nav-bgr{
+    display: flex;
+    justify-content: center;
+}
+
+.qrs{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.qrs img{
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+}
+
+.map h2{
+    translate: 536px;
+    margin-bottom: 50px;
+}
+
+.map-cards p{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 300px;  
+    background-color: rgb(252, 196, 209);
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.basement .cards{
+    background-color: rgb(246, 223, 223);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+  
+.basement img{
+    width: 600px;
+    height: 365px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.cards-about{
+    display: flex;
+    justify-content: center;
+}
+
+.cards-about .column-about{
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+.column-about p{
+    margin-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 600px; 
+}
+
+.cards-about h3{
+        margin-bottom: 50px;
+        background-color: rgb(252, 196, 209);
+}
+
+.img-liner .img-liner-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./img/онас.jpg);
+    margin-bottom: 50px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 298px;   
+}
+
+.img-liner-name h2{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(252, 196, 209);
+}
+
+.nav-link-new{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.frst-pr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.frst-pr .txt{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-link-pr{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 20px;
+   margin-bottom: 50px;
+}
+
+.yl h3{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.CRDT{
+    display: flex;
+    justify-content: center;
+}
+
+.CRD{
+    justify-content: center;
+    border: 3px solid black;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+}
+
+.yscl h4{
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 50px;
+    margin-bottom: auto;
+    background-color: rgb(252, 196, 209);
+}
+
+.yscl img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 365px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.yscl{
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+.name-u .name-name{
+    display: flex;
+    justify-content: center;
+}
+
+.ssilka{
+    display: flex;
+    justify-content: center;
+}
+
+.ssilka .nav-pr{
+    display: flex;
+    justify-content: center;
+    max-width: 300px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(252, 196, 209);
+}
+
+.name-u h3{
+    display: flex;
+    justify-content: center;
+    max-width: 300px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    background-color: rgb(252, 196, 209);
+}
+
+.name-img img{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+.card-end{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.card-end p{
+    display: flex;
+    justify-content: center;
+    max-width: 500px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+
+.card-end img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 300px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.card-end-2{
+    display: flex;
+    justify-content: center;
+
+}
+
+.card-end-2 p{
+    display: flex;
+    justify-content: center;
+    max-width: 600px;
+}
+
+.card-end-2 img{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 300px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.nav-pr-2{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-pr{
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    background-color: rgb(252, 196, 209);
+}
+
+.zapis{
+    display: flex;
+    justify-content: center;
+}
+
+.zapis .nav-zapis{
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    background-color: rgb(252, 196, 209);
+}
+
+.nave-base-o{
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 1024px) {
+    body{
+        .header{
+            display: flex;
+            justify-content: space-between;
+            max-width: 1024px;
+        }
+        
+        .banner-top img{
+           position: absolute;
+        }
+
+        .Our-works h2{
+            translate: 378px;
+           
+        }
+
+        .card{
+            width: 100%;
+            margin-right: 10px;
+        }
+
+        .card p{
+            margin-left: 10px;
+        }
+
+        .name-img img{
+            width: 1024px;
+            height: 500px;
+        }
+
+        .card-end-2{
+            display: flex;
+            justify-content: center;
+            margin-left: 25px;
+        }
+
+        .basement{
+            font-size: 15px;
+        }
+
+        .card img{
+            margin-left: 10px;
+        }
+
+        .CRDT{
+            display: flex;
+            justify-content: center;
+        }
+
+        .yscl{
+            max-width: 1000px;
+            display: flex;
+            justify-content: center;
+            margin-right: 5px;
+            margin-bottom: 30px;
+        }
+
+        .yscl h4{
+            margin-right: 75px;
+            max-width: auto;
+        }
+
+        .yscl img{
+            display: none
+        }
+
+        .cards-about .column-about{
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+
+        .banner-top h1{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .services h2{
+            display: flex;
+            translate: 215px;
+        }
+
+        .reviews h2{
+            display: flex;
+            translate: 315px;
+        }
+
+        .map h2{
+            display: flex;
+            translate: 315px;
+        }
+
+        .map-cards{
+            margin-right: 20px;
+        }
+
+        .map-container img{
+            margin-right: 5px;
+        }
+
+        .card-end p{
+            margin-right: 20px;
+        }
+
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    body{
+        
+
+        font-size: 22px;
+
+        .header{
+            display: flex;
+            justify-content: space-between;
+            max-width: 768px;
+        }
+        
+        .banner-top img{
+           position: absolute;
+        }
+
+        .CRD{
+            max-width: 700px;
+        }
+        .txt img{
+            width: 500px;
+        }
+
+        .Our-works h2{
+            translate: 275px;
+           
+        }
+
+        .card{
+            width: 100%;
+            margin-right: 10px;
+        }
+
+        .card-container img{
+            display: flex;
+            margin-left: 10px;
+            margin-bottom: 50px;
+            width: 400px;
+            height: 250px;
+        }
+
+        .card p{
+            margin-left: 10px;
+        }
+
+        .name-img img{
+            width: 768px;
+            height: 400px;
+        }
+
+        .card-end-2{
+            display: flex;
+            justify-content: center;
+            margin-left: 15px;
+        }
+
+        .basement{
+            font-size: 13px;
+        }
+
+        .karta img{
+           width: 400px ;
+           height: 250px;
+
+        }
+
+        .card img{
+            margin-left: 10px;
+        }
+
+        .CRDT{
+            display: flex;
+            justify-content: center;
+        }
+
+        .yscl{
+            max-width: 1000px;
+            display: flex;
+            justify-content: center;
+            margin-right: 5px;
+            margin-bottom: 30px;
+        }
+
+        .yscl h4{
+            margin-right: 15px;
+            max-width: auto;
+        }
+
+        .yscl img{
+            display: none
+        }
+        .cards-about .column-about{
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+
+        .banner-top h1{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .services h2{
+            display: flex;
+            translate: 155px;
+        }
+
+        .reviews h2{
+            display: flex;
+            translate: 225px;
+        }
+
+        .map h2{
+            display: flex;
+            translate: 225px;
+        }
+
+        .map-cards p{
+            margin-right: 20px;
+            margin-top: 3px;
+        }
+
+        .map-container img{
+            margin-right: 5px;
+            width: 400px;
+        }
+
+        .Who-we h2{
+            display: flex;
+            justify-content: center;
+        }
+
+        .who-we-item{
+            max-width: 700px;
+        }
+    }
+}
