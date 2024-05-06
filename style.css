@@ -1383,7 +1383,81 @@ body{
     }
 
 }
+@media (max-width: 390px){
+    body{
+        font-size: 10px;
+        .header{
+            display: flex;
+            justify-content: space-between;
+            max-width: 390px;
+        }
 
+        .Who-we{
+            max-width: 370px;
+            margin-left: 10px;
+        }
+
+        .Our-works h2{
+            translate: 95px;
+        }
+
+        .Our-works{
+            max-width: 370px;
+        }
+
+        .card{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 370px;
+            width: 100%;
+            margin-bottom: 100px
+        }
+
+        .card img{
+            width: 220px;
+
+        }
+
+        .services h2{
+            translate: 85px;
+        }
+
+        .map-container img{
+            margin-top: 0px;
+
+        }
+
+        .karta{
+            display: none;
+        }
+
+        .column p{
+            margin-top: 0px;
+        }
+
+        .img-liner .img-liner-name{
+            margin-bottom: 10px;
+        }
+
+        .CRD{
+            margin-bottom: 15px;
+            margin-top: 15px;
+        }
+        
+        .name-img img{
+            width: 390px;
+        }
+
+        .card-container{
+            margin-top: -25px;
+        }
+
+        .banner-top h1{
+            max-width: 350px;
+        }
+    }
+}
 
 
 
