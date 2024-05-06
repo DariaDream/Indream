@@ -1383,7 +1383,7 @@ body{
     }
 
 }
-@media (min-width: 390px) and (max-width: 400px){
+@media (min-width: 390px){
     body{
         font-size: 10px;
         .header{
