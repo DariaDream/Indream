@@ -1273,7 +1273,7 @@ body{
         .header{
             display: flex;
             justify-content: space-between;
-            max-width: 375px;
+            max-width: absolute;
         }
         
         .banner{
