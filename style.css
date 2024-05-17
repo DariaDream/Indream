@@ -602,7 +602,7 @@ body{
         .header{
             display: flex;
             justify-content: center;
-            max-width: 425px;
+            max-width: 1024px;
         }
         
         .banner{
@@ -830,130 +830,6 @@ body{
         
 }
 
-@media (max-width: 1440px) {
-    body{
-        .header{
-            display: flex;
-            justify-content: space-between;
-            max-width: 1440px;
-        }
-        
-        .banner-top img{
-           position: absolute;
-        }
-
-        .Our-works h2{
-            translate: 378px;
-           
-        }
-
-        .card{
-            width: 100%;
-            margin-right: 10px;
-            max-width: 500px;
-        }
-
-        .card p{
-            margin-left: 10px;
-        }
-
-
-        .card-container img{
-            width: 500px;
-            height: 350px;
-        }
-
-        .name-img img{
-            width: 1000px;
-            height: 550px;
-        }
-
-        .card-end-2{
-            display: flex;
-            justify-content: center;
-            margin-left: 25px;
-        }
-
-        .basement{
-            font-size: 15px;
-        }
-
-        .basement img{
-            width: 400px;
-            height: 250px;
-        }
-
-        .card img{
-            margin-left: 10px;
-        }
-
-        .CRDT{
-            display: flex;
-            justify-content: center;
-        }
-
-        .yscl{
-            max-width: 1020px;
-            display: flex;
-            justify-content: center;
-            margin-right: 5px;
-            margin-bottom: 30px;
-        }
-
-        .yscl h4{
-            margin-right: 75px;
-           
-        }
-
-        .yscl img{
-            display: none
-        }
-
-        .cards-about .column-about{
-            margin-left: 10px;
-            margin-top: 10px;
-        }
-
-        .banner-top h1{
-            display: flex;
-            justify-content: center;
-            text-align: center;
-        }
-
-        .services h2{
-            display: flex;
-            translate: 215px;
-        }
-
-        .reviews h2{
-            display: flex;
-            translate: 315px;
-        }
-
-        .map h2{
-            display: flex;
-            translate: 315px;
-        }
-
-        .map-cards{
-            margin-right: 20px;
-        }
-
-        .map-container img{
-            margin-right: 5px;
-        }
-
-        .card-end p{
-            margin-right: 20px;
-            align-items: center;
-        }
-
-        .yscl .img-y img{
-            display: none;
-        }
-
-    }
-}
 
 
 
@@ -1383,81 +1259,7 @@ body{
     }
 
 }
-@media (min-width: 390px){
-    body{
-        font-size: 10px;
-        .header{
-            display: flex;
-            justify-content: space-between;
-            max-width: 390px;
-        }
 
-        .Who-we{
-            max-width: 370px;
-            margin-left: 10px;
-        }
-
-        .Our-works h2{
-            translate: 95px;
-        }
-
-        .Our-works{
-            max-width: 370px;
-        }
-
-        .card{
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            max-width: 370px;
-            width: 100%;
-            margin-bottom: 100px
-        }
-
-        .card img{
-            width: 220px;
-
-        }
-
-        .services h2{
-            translate: 85px;
-        }
-
-        .map-container img{
-            margin-top: 0px;
-
-        }
-
-        .karta{
-            display: none;
-        }
-
-        .column p{
-            margin-top: 0px;
-        }
-
-        .img-liner .img-liner-name{
-            margin-bottom: 10px;
-        }
-
-        .CRD{
-            margin-bottom: 15px;
-            margin-top: 15px;
-        }
-        
-        .name-img img{
-            width: 390px;
-        }
-
-        .card-container{
-            margin-top: -25px;
-        }
-
-        .banner-top h1{
-            max-width: 350px;
-        }
-    }
-}
 
 
 
